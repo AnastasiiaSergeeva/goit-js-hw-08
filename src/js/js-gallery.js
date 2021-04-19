@@ -60,12 +60,11 @@ function openModalClick(evt) {
 }
 
 function closeModalBtn(evt) {
-  // if (target.nodeName === "BUTTON") {
 
   refs.lightboxEl.classList.remove('is-open');
   refs.lightboxImg.attributes.src.value = '';
   refs.lightboxImg.attributes.alt.value = '';
-  // }
+
   
 }
 
